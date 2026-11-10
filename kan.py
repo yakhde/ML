@@ -8,7 +8,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 
 # --- SOZLAMALAR ---
-API_TOKEN = '8539329523:AAFaq9AkiJBtIFejvNCu3IPDChHm26uslt0'
+API_TOKEN = 'API token'# <---
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
 
